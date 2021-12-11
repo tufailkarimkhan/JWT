@@ -35,12 +35,12 @@
 
 # How to Login
 
-    * Type localhost:8000/login in url Bar
+    * Type localhost:8080/login in url Bar
     * Enter email and password if is correct then login else return same page.
 
 # How to Update
 
-    * localhost:8000/update in url Bar
+    * localhost:8080/update in url Bar
 
     * input: fill the given form
     * output: Updated Successfully
