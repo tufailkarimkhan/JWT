@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dash Board</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <% if(message.length>0){%>
+      <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong><%=message%> </strong>
+      </div>
+      <%}%>
+      <div class="container text-center">
+        <h2 class="diaplay-3">Welcome to Our Admin Panel</h2>
+        <h2>Here some secret content of india 🤗</h2>
+        <p>here you can update User First Name and Last Name</p>
+      </div>
+
+      <form action="/update" method="post" class="">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="email" />
+        <label for="email">first Name</label>
+        <input type="text" class="form-control" name="firstName" />
+        <label for="lastName">last Name</label>
+        <input type="text" class="form-control" name="lastName" />
+        <div class="form-group text-center">
+          <input
+            type="submit"
+            value="updateUser"
+            class="mt-4 btn btn-primary"
+          />
+        </div>
+      </form>
+      <!-- <form action="/logout" method="post">
+        <button class="btn btn-primary p-2">Logout</button>
+      </form> -->
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
