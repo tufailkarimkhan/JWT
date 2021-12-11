@@ -1,6 +1,6 @@
 # Introduction
 
-    * this is loin and update system
+    * this is registration loin and update system
 
 # Requirement
 
@@ -8,7 +8,7 @@
     * MongoDB:https://www.mongodb.com/try/download/community
     * Postman API:https://www.postman.com/downloads/
 
-# How to Install Recommended modules
+# Recommended modules
 
     * Express
     * body-parser
