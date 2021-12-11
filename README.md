@@ -15,6 +15,9 @@
     * mongoose
     * jwt
     * bcryptjs
+    * cookie-parser
+    * connect-flash
+    * express-session
 
 # How to Install
 
